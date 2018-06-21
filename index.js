@@ -9,4 +9,6 @@ function tailsNeverFails() {
   console.log(`You got ${tails} tails in a row!`);
 }
 
-tailsNeverFails();
+for (let t = 0; t <= 1000000; t++) {
+  tailsNeverFails();
+}
